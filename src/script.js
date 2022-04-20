@@ -46,6 +46,7 @@
     }
   
     function update() {
+      // eslint-disable-next-line
       canvas.width = canvas.width;
   
       block.x = block.x + block.xDir;
