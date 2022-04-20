@@ -10,7 +10,7 @@
     var colorIndex = 0;
   
     var block;
-    var padding = 1;
+    var padding = 2;
   
     var image = new Image();
     image.onload = function () {
@@ -26,7 +26,7 @@
       init();
     };
   
-    image.src = "./newQR-removebg-preview.png";
+    image.src = "./qrcode.svg";
   
     function init() {
       draw();
